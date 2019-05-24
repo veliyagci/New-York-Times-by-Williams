@@ -1,5 +1,4 @@
 // Dependencies
-var PORT = process.env.PORT || 5000;
 var express = require("express");
 var method = require("method-override");
 var body = require("body-parser");
@@ -35,7 +34,7 @@ db.once("open", function() {
 
 
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 5000;
 
 // app set-ups
 
